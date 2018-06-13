@@ -6,3 +6,20 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.image-center {
+  display: block;
+  margin: auto;
+}
+.page__content {
+	font-size: 0.8em
+}
+.archive {
+	font-size: 0.8em
+}
+.archive__item-excerpt {
+	font-size: 0.9em
+}
+.archive__subtitle {
+	font-size: 1.4em
+}
