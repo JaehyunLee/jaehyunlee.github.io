@@ -16,16 +16,15 @@ comments: true
 
 공식 라즈베리파이용 OS인 **라즈비안(Raspbian)**을 설치하기 위해서는 우선 **"마이크로 SD카드"**와 **"리더기"**가 꼭 필요해요. 라즈베리파이는 다른 저장장치 없이 이게 유일한 저장장치에요.
 
-![img](/assets/images/180616/img1.png)
-<!-- micro sd 카드 이미지 -->
+![img](/assets/images/180616/img1.png){: width="80%"}{: .image-center}
 
 라즈비안은 라즈베리파이 [공식페이지](https://www.raspberrypi.org/downloads/raspbian/)에서 쉽게 다운받을 수 있어요.
 
-![img](/assets/images/180616/img2.png)
+![img](/assets/images/180616/img2.png){: width="80%"}{: .image-center}
 
 다운받은 파일은 그냥 마이크로 SD카드에 복사하면 안되고, 별도의 이미지 작성 도구를 사용해야 해요. 여러가지 방법이 있는데, [Etcher](https://etcher.io/)라는 툴을 사용하는게 제일 간단한 것 같아요.
 
-![img](/assets/images/180616/img3.png)
+![img](/assets/images/180616/img3.png){: width="80%"}{: .image-center}
 
 내 운영체제에 맞는 파일을 다운 받아주세요. 그냥 PC에 마이크로 SD카드를 연결하고 다운받은 이미지 파일 선택후 플래시 버튼 누르면 끝나요. 따로 압축파일을 풀 필요도 없고 심지어 무료네요.
 
@@ -33,15 +32,11 @@ comments: true
 
 라즈비안 설치가 끝났다면 설치된 마이크로 SD카드를 라즈베리파이에 연결해주시고 휴대폰 충전기로 전원을 연결해주세요.
 
-![img](/assets/images/180616/img4.png)
-<!-- 충전기 및 라즈베리파이 이미지 -->
-
 라즈베리파이는 특별한 전원 버튼같은게 있는건 아니고 그냥 전원 연결해주시면 자동으로 부팅이 되요. 쉽죠?
 
 다만, 주의하실점은 **"휴대폰 충전기의 전력"**을 꼭 확인해주세요!
 
-![img](/assets/images/180616/img5.png)
-<!-- 충전기 전력 이미지 -->
+![img](/assets/images/180616/img4.png){: width="80%"}{: .image-center}
 
 라즈베리파이 3 기준 2.5A의 전원 공급이 권장되는데요. 휴대폰 충전기마다 조금씩 다를 수 있어요. 전력이 맞지 않으면 라즈베리파이가 켜지지 않거나 갑자기 꺼지는 등 이상 현상이 발생하기도 하네요.
 
